@@ -78,6 +78,17 @@ May 24, 2024
 ### Note
 Ensure that ports 3000 and 5000 are free on your machine.
 
+### App
+#### Join page
+![join-page](/doc/join-page.png)
+#### Chat desktop mode
+![join-page](/doc/chat-desktop-mode.png)
+#### Chat mobile web mode
+![join-page](/doc/chat-mobile-mode.png)
+
+### Clean Archetecture Doc 
+[https://github.com/radyatamaa/live-chat-vouch/backend/README.md](https://github.com/radyatamaa/live-chat-vouch/tree/dev/backend#readme)
+
 ## Time Spent
 I spent approximately 48 hours on the assignment.
 
