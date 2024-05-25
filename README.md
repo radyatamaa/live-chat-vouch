@@ -3,18 +3,67 @@
 ## Date of Submission
 May 24, 2024
 
-## Instructions to Run Assignment Locally
-
-### Prerequisites
-- Docker
-- Docker Compose
+## Instructions to Run App Locally
+### System Requirement
+- Nodejs 12.14.1
+- MongoDB
+- Docker (optional)
 
 ### Steps
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/radyatamaa/live-chat-vouch.git
+    cd live-chat-vouch
+    ```
+
+2. install packages:
+    ```sh
+    cd backend
+    npm install
+
+    cd frontend
+    npm install
+    ```
+    
+3. copy enviroment config:
+    ```sh
+    cd backend
+    cp .env.example
+    
+    cd frontend
+    cp .env.example
+    ```
+4. set these enviroment config .env backend and frontend:
+    ```sh
+    // backend
+    DATABASE_DIALECT=mongo
+    DATABASE_URI=mongodb://localhost:27017 -> example local connection mongodb 
+    DATABASE_NAME=live_chat -> name of database
+    
+    // frontend
+    REACT_APP_BACKEND_URL=http://localhost:5000/
+    ```
+        
+4. run the app :
+    ```sh
+    cd backend
+    npm start
+
+    cd frontend
+    npm start
+    ```
+
+5. Access the application:
+    - Frontend: [http://localhost:3000](http://localhost:3000)
+    - Backend: [http://localhost:5000](http://localhost:5000)
+      
+### Steps with docker
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/radyatamaa/live-chat-vouch.git
+    cd live-chat-vouch
     ```
 
 2. Build and start the containers:
@@ -27,14 +76,14 @@ May 24, 2024
     - Backend: [http://localhost:5000](http://localhost:5000)
 
 ### Note
-Ensure that ports 80 and 3000 are free on your machine.
+Ensure that ports 3000 and 5000 are free on your machine.
 
 ## Time Spent
-I spent approximately 28 hours on the assignment.
+I spent approximately 48 hours on the assignment.
 
 ## Assumptions Made
-- The application will be run using Docker and Docker Compose.
-- The backend API runs on port 3000, and the frontend application is served on port 80.
+- The application will be run using Docker and Docker Compose or run as locally.
+- The backend API runs on port 5000, and the frontend application is served on port 3000.
 - Basic environment setup for development is sufficient (NODE_ENV=development).
 
 ## Shortcuts/Compromises Made
@@ -63,7 +112,7 @@ I spent approximately 28 hours on the assignment.
 - Advanced CI/CD pipeline configuration was omitted due to time limitations.
 
 ## Additional Information
-- The application is designed to be modular and can be extended with additional features as needed.
+- The application is designed to be modular and clean architecture and can be extended with additional features as needed.
 - Future enhancements could include user authentication and role-based access control.
 
 ## Feedback
