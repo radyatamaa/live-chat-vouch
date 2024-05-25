@@ -30,7 +30,7 @@ const createServer = async () => {
       plugin: HapiSwagger,
       options: {
         info: {
-          title: 'Test API Documentation',
+          title: 'Live Chat Vouch API Documentation',
           version: 'v1',
         },
       }

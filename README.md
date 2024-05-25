@@ -85,6 +85,8 @@ Ensure that ports 3000 and 5000 are free on your machine.
 ![join-page](/doc/chat-desktop-mode.png)
 #### Chat mobile web mode
 ![join-page](/doc/chat-mobile-mode.png)
+#### API Doc Swagger
+![join-page](/doc/swagger.png)
 
 ### Clean Archetecture Doc 
 [https://github.com/radyatamaa/live-chat-vouch/backend/README.md](https://github.com/radyatamaa/live-chat-vouch/tree/dev/backend#readme)
