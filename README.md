@@ -5,7 +5,7 @@ May 24, 2024
 
 ## Instructions to Run App Locally
 ### System Requirement
-- Nodejs 12.14.1
+- Nodejs 12.14.0
 - MongoDB
 - Docker (optional)
 
