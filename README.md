@@ -23,8 +23,8 @@ May 24, 2024
     ```
 
 3. Access the application:
-    - Frontend: [http://localhost:80](http://localhost:80)
-    - Backend: [http://localhost:3000](http://localhost:3000)
+    - Frontend: [http://localhost:3000](http://localhost:3000)
+    - Backend: [http://localhost:5000](http://localhost:5000)
 
 ### Note
 Ensure that ports 80 and 3000 are free on your machine.
